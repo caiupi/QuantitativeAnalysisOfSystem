@@ -1,0 +1,103 @@
+Mobius ars Version 2.5, 
+Copyright (c) William H. Sanders and Univ. of Illinois 1994-2010
+
+******************************************************************************
+                      Mobius ACCUMULATED REWARD SOLVER 
+
+                      ACCUMULATED REWARD SOLVER RESULTS
+******************************************************************************
+
+Started: Tue Feb 02 18:14:42 2021
+
+Project name: Railway
+Study name: Analysis2
+State space name: PistoiaFirstState
+Experiment name: Experiment_2
+
+Global variable settings for this experiment:
+	L = 6
+	N = 3
+	P = 4
+	h = 0.001
+
+Verbosity: 0
+Accuracy: 1.#INF00e+000
+Time intervals:
+    [0.000000,1.000000]
+    [0.000000,6.000000]
+    [0.000000,12.000000]
+    [0.000000,24.000000]
+    [0.000000,48.000000]
+    [0.000000,96.000000]
+    [0.000000,192.000000]
+    [0.000000,384.000000]
+
+Computation Time (seconds): 1.973000
+User Time (seconds): 1.973000
+System Time (seconds): 0.000000
+Rate of Poisson process: 10.700000
+Number of states in process: 12381
+Number of states with reward: 2889
+Number of time intervals: 8
+
+      Time Point       Left Trunc.      # Iterations          Error     
+   ---------------   ---------------   ---------------   ---------------
+          1.000000                 0                27     1.#INF00e+000
+          6.000000                54               100     1.#INF00e+000
+         12.000000               115               178     1.#INF00e+000
+         24.000000               239               327     1.#INF00e+000
+         48.000000               489               612     1.#INF00e+000
+         96.000000               993              1165     1.#INF00e+000
+        192.000000              2007              2249     1.#INF00e+000
+        384.000000              4043              4383     1.#INF00e+000
+
+------------------------------------------------------------------------------
+Performance variable             :  TravelCompleted
+Time interval                    :  [0.000000,1.000000]
+Expected accumulated reward      :  3.262203e-001
+Time-averaged accumulated reward :  3.262203e-001
+
+------------------------------------------------------------------------------
+Performance variable             :  TravelCompleted
+Time interval                    :  [0.000000,6.000000]
+Expected accumulated reward      :  6.192319e+000
+Time-averaged accumulated reward :  1.032053e+000
+
+------------------------------------------------------------------------------
+Performance variable             :  TravelCompleted
+Time interval                    :  [0.000000,12.000000]
+Expected accumulated reward      :  1.380784e+001
+Time-averaged accumulated reward :  1.150654e+000
+
+------------------------------------------------------------------------------
+Performance variable             :  TravelCompleted
+Time interval                    :  [0.000000,24.000000]
+Expected accumulated reward      :  2.899856e+001
+Time-averaged accumulated reward :  1.208273e+000
+
+------------------------------------------------------------------------------
+Performance variable             :  TravelCompleted
+Time interval                    :  [0.000000,48.000000]
+Expected accumulated reward      :  5.925292e+001
+Time-averaged accumulated reward :  1.234436e+000
+
+------------------------------------------------------------------------------
+Performance variable             :  TravelCompleted
+Time interval                    :  [0.000000,96.000000]
+Expected accumulated reward      :  1.196368e+002
+Time-averaged accumulated reward :  1.246216e+000
+
+------------------------------------------------------------------------------
+Performance variable             :  TravelCompleted
+Time interval                    :  [0.000000,192.000000]
+Expected accumulated reward      :  2.402412e+002
+Time-averaged accumulated reward :  1.251256e+000
+
+------------------------------------------------------------------------------
+Performance variable             :  TravelCompleted
+Time interval                    :  [0.000000,384.000000]
+Expected accumulated reward      :  4.811991e+002
+Time-averaged accumulated reward :  1.253123e+000
+
+Finished: Tue Feb 02 18:14:44 2021
+

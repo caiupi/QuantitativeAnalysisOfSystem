@@ -1,0 +1,32 @@
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Expected accumulated reward,Time-averaged accumulated reward,NumDistPts
+0,0,TravelCompleted,0.000000,1.000000,ARS Results,0.360482,0.360482,0
+## Dist,x, P(X=x), P(X<=x)
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Expected accumulated reward,Time-averaged accumulated reward,NumDistPts
+0,0,TravelCompleted,0.000000,6.000000,ARS Results,6.467675,1.077946,0
+## Dist,x, P(X=x), P(X<=x)
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Expected accumulated reward,Time-averaged accumulated reward,NumDistPts
+0,0,TravelCompleted,0.000000,12.000000,ARS Results,14.612961,1.217747,0
+## Dist,x, P(X=x), P(X<=x)
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Expected accumulated reward,Time-averaged accumulated reward,NumDistPts
+0,0,TravelCompleted,0.000000,24.000000,ARS Results,30.894377,1.287266,0
+## Dist,x, P(X=x), P(X<=x)
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Expected accumulated reward,Time-averaged accumulated reward,NumDistPts
+0,0,TravelCompleted,0.000000,48.000000,ARS Results,63.733519,1.327782,0
+## Dist,x, P(X=x), P(X<=x)
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Expected accumulated reward,Time-averaged accumulated reward,NumDistPts
+0,0,TravelCompleted,0.000000,96.000000,ARS Results,129.367847,1.347582,0
+## Dist,x, P(X=x), P(X<=x)
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Expected accumulated reward,Time-averaged accumulated reward,NumDistPts
+0,0,TravelCompleted,0.000000,192.000000,ARS Results,260.639253,1.357496,0
+## Dist,x, P(X=x), P(X<=x)
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Expected accumulated reward,Time-averaged accumulated reward,NumDistPts
+0,0,TravelCompleted,0.000000,384.000000,ARS Results,523.182068,1.362453,0
+## Dist,x, P(X=x), P(X<=x)
+

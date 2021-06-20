@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<class id="Mobius.Studies.RangeStudy.RangeStudyInterface">
+	<int id="ClassVersion">1</int>
+	<class id="Mobius.Studies.Common.BaseStudyInterface">
+		<int id="ClassVersion">1</int>
+		<class id="Mobius.BaseClasses.BaseInterfaceClass">
+			<int id="ClassVersion">3</int>
+			<string id="ModelName">Analysis3</string>
+			<class id="Mobius.Studies.RangeStudy.RangeStudyInfoClass">
+				<int id="ClassVersion">1</int>
+				<class id="Mobius.Studies.BaseStudyInfoClass">
+					<int id="ClassVersion">1</int>
+					<class id="Mobius.BaseClasses.BaseInfoClass">
+						<int id="ClassVersion">2</int>
+					</class>
+				</class>
+			</class>
+			<class id="Mobius.Studies.RangeStudy.RangeStudyEditor">
+				<int id="ClassVersion">2</int>
+				<class id="Mobius.Studies.Common.BaseStudyEditor">
+					<int id="ClassVersion">4</int>
+					<class id="Mobius.BaseClasses.BaseEditorClass">
+						<int id="ClassVersion">3</int>
+						<boolean id="HasPanel">false</boolean>
+						<vector id="LocalGlobalNamesList">
+						</vector>
+						<vector id="LocalGlobalTypesList">
+						</vector>
+						<boolean id="DisplayToolTips">true</boolean>
+					</class>
+					<string id="FullPath">c:\\MobiusProject\\Railway\\Study\\Analysis3\\</string>
+					<string id="PVModelName">PistoiaFirstAnalysis3</string>
+					<vector id="ActiveExpVector">
+						<boolean id="0">true</boolean>
+						<boolean id="1">true</boolean>
+						<boolean id="2">true</boolean>
+						<boolean id="3">true</boolean>
+						<boolean id="4">true</boolean>
+						<boolean id="5">true</boolean>
+						<boolean id="6">true</boolean>
+						<boolean id="7">true</boolean>
+						<boolean id="8">true</boolean>
+						<boolean id="9">true</boolean>
+						<boolean id="10">true</boolean>
+						<boolean id="11">true</boolean>
+						<boolean id="12">true</boolean>
+						<boolean id="13">true</boolean>
+						<boolean id="14">true</boolean>
+						<boolean id="15">true</boolean>
+						<boolean id="16">true</boolean>
+						<boolean id="17">true</boolean>
+						<boolean id="18">true</boolean>
+						<boolean id="19">true</boolean>
+						<boolean id="20">true</boolean>
+						<boolean id="21">true</boolean>
+						<boolean id="22">true</boolean>
+						<boolean id="23">true</boolean>
+						<boolean id="24">true</boolean>
+						<boolean id="25">true</boolean>
+						<boolean id="26">true</boolean>
+						<boolean id="27">true</boolean>
+						<boolean id="28">true</boolean>
+						<boolean id="29">true</boolean>
+						<boolean id="30">true</boolean>
+						<boolean id="31">true</boolean>
+						<boolean id="32">true</boolean>
+						<boolean id="33">true</boolean>
+						<boolean id="34">true</boolean>
+						<boolean id="35">true</boolean>
+					</vector>
+					<vector id="GVNameVector">
+						<string id="0">L</string>
+						<string id="1">N</string>
+						<string id="2">P</string>
+						<string id="3">h</string>
+					</vector>
+					<vector id="GVTypeStringVector">
+						<string id="0">int</string>
+						<string id="1">int</string>
+						<string id="2">int</string>
+						<string id="3">double</string>
+					</vector>
+				</class>
+				<int id="VectorLength">4</int>
+				<vector id="e">
+					<string id="0">Incremental Range</string>
+					<string id="1">0</string>
+					<string id="2">1</string>
+				</vector>
+				<vector id="e">
+					<string id="0">Fixed Value</string>
+				</vector>
+				<vector id="e">
+					<string id="0">Incremental Range</string>
+					<string id="1">0</string>
+					<string id="2">1</string>
+				</vector>
+				<vector id="e">
+					<string id="0">Fixed Value</string>
+				</vector>
+				<vector id="g">
+					<string id="0">1</string>
+					<string id="1">2</string>
+					<string id="2">3</string>
+					<string id="3">4</string>
+					<string id="4">5</string>
+					<string id="5">6</string>
+				</vector>
+				<vector id="g">
+					<string id="0">7</string>
+				</vector>
+				<vector id="g">
+					<string id="0">1</string>
+					<string id="1">2</string>
+					<string id="2">3</string>
+					<string id="3">4</string>
+					<string id="4">5</string>
+					<string id="5">6</string>
+				</vector>
+				<vector id="g">
+					<string id="0">0.001</string>
+				</vector>
+			</class>
+			<boolean id="Valid">true</boolean>
+		</class>
+	</class>
+</class>

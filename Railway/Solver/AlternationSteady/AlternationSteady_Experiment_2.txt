@@ -1,0 +1,63 @@
+Mobius sor Version 2.5, 
+Copyright (c) William H. Sanders and Univ. of Illinois 1994-2010
+
+******************************************************************************
+                  Mobius ITERATIVE SOR STEADY STATE SOLVER 
+
+                  ITERATIVE SOR STEADY STATE SOLVER RESULTS
+******************************************************************************
+
+Started: Tue Feb 02 12:30:29 2021
+
+Project name: Railway
+Study name: Analysis1
+State space name: AlternationState
+Experiment name: Experiment_2
+
+Global variable settings for this experiment:
+	L = 6
+	N = 3
+	P = 4
+	h = 0.001
+
+Verbosity: 0
+Accuracy: 1.000000e-009
+Weight: 1.000000
+Max iterations: 3000000
+Matrix diagonalization off.
+
+Computation Time (seconds): 0.015000
+User Time (seconds): 0.015000
+System Time (seconds): 0.000000
+Number of states in process: 1150
+Number of non-zero elements: 5650
+Solution converged in 22 iterations.
+Maximum difference: 8.161138e-010
+
+Computing the performance variables
+******************************************************************************
+Performance variable :  SteadyStateFlorence
+Mean                 :  7.539030e-001
+Variance             :  6.753409e-001
+Plot files    (pdf)  :  Experiment_2.sor.SteadyStateFlorence.pdf.splot
+              (cdf)  :  Experiment_2.sor.SteadyStateFlorence.cdf.splot
+******************************************************************************
+Performance variable :  SteadyStatePistoia
+Mean                 :  1.731030e+000
+Variance             :  7.412058e-001
+Plot files    (pdf)  :  Experiment_2.sor.SteadyStatePistoia.pdf.splot
+              (cdf)  :  Experiment_2.sor.SteadyStatePistoia.cdf.splot
+******************************************************************************
+Performance variable :  SteadyStateLucca
+Mean                 :  2.318363e+000
+Variance             :  1.239784e+000
+Plot files    (pdf)  :  Experiment_2.sor.SteadyStateLucca.pdf.splot
+              (cdf)  :  Experiment_2.sor.SteadyStateLucca.cdf.splot
+******************************************************************************
+Performance variable :  SteadyStateViareggio
+Mean                 :  1.194876e+000
+Variance             :  1.177777e+000
+Plot files    (pdf)  :  Experiment_2.sor.SteadyStateViareggio.pdf.splot
+              (cdf)  :  Experiment_2.sor.SteadyStateViareggio.cdf.splot
+Finished: Tue Feb 02 12:30:29 2021
+

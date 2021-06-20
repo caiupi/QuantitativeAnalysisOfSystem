@@ -1,0 +1,103 @@
+
+**********************************************************
+
+State Generation initiated on Experiment_1 of PistoiaFirstState started at Wed Feb 03 22:41:28 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/PistoiaFirstState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius6142554670161569759license
+License Verified.
+The Global Variable values for experiment Experiment 1 are:
+L	int	8
+N	int	5
+P	int	4
+h	double	1e-005
+SSG: SetTraceLevel: 0
+
+
+
+
+Generated: 175449 states
+Computation Time (user + system): 1.217400e+001 seconds
+State Generation of Experiment_1 on model PistoiaFirstState finished at Wed Feb 03 22:41:41 CET 2021.
+
+
+**********************************************************
+
+**********************************************************
+
+State Generation initiated on Experiment_2 of PistoiaFirstState started at Wed Feb 03 22:41:41 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/PistoiaFirstState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius8559789061074380538license
+License Verified.
+The Global Variable values for experiment Experiment 2 are:
+L	int	8
+N	int	5
+P	int	4
+h	double	0.0001
+SSG: SetTraceLevel: 0
+
+Generated: 175449 states
+Computation Time (user + system): 1.206800e+001 seconds
+State Generation of Experiment_2 on model PistoiaFirstState finished at Wed Feb 03 22:41:53 CET 2021.
+
+
+**********************************************************
+
+**********************************************************
+
+State Generation initiated on Experiment_3 of PistoiaFirstState started at Wed Feb 03 22:41:53 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/PistoiaFirstState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius7825250147928108789license
+License Verified.
+The Global Variable values for experiment Experiment 3 are:
+L	int	8
+N	int	5
+P	int	4
+h	double	0.001
+SSG: SetTraceLevel: 0
+
+
+Generated: 175449 states
+Computation Time (user + system): 1.207200e+001 seconds
+State Generation of Experiment_3 on model PistoiaFirstState finished at Wed Feb 03 22:42:06 CET 2021.
+
+
+**********************************************************
+
+**********************************************************
+
+State Generation initiated on Experiment_4 of PistoiaFirstState started at Wed Feb 03 22:42:06 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/PistoiaFirstState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius3497581793560939565license
+License Verified.
+The Global Variable values for experiment Experiment 4 are:
+L	int	8
+N	int	5
+P	int	4
+h	double	0.01
+SSG: SetTraceLevel: 0
+
+Generated: 175449 states
+Computation Time (user + system): 1.203600e+001 seconds
+State Generation of Experiment_4 on model PistoiaFirstState finished at Wed Feb 03 22:42:18 CET 2021.
+
+
+**********************************************************
+
+**********************************************************
+
+State Generation initiated on Experiment_5 of PistoiaFirstState started at Wed Feb 03 22:42:18 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/PistoiaFirstState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius4656689960593947508license
+License Verified.
+The Global Variable values for experiment Experiment 5 are:
+L	int	8
+N	int	5
+P	int	4
+h	double	0.1
+SSG: SetTraceLevel: 0
+
+
+Generated: 175449 states
+Computation Time (user + system): 1.201900e+001 seconds
+State Generation of Experiment_5 on model PistoiaFirstState finished at Wed Feb 03 22:42:31 CET 2021.
+

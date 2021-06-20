@@ -1,0 +1,404 @@
+<html>
+<head>
+<title>Railway Documentation</title>
+<meta NAME="Description" Content="Project Documentation">
+</head>
+<body TEXT="black" BGCOLOR="white" LINK="blue" ALINK="red" VLINK="indigo" BACKGROUND="" >
+<p>
+<B>Model: LuccaFirst</B>
+<br />
+<img USEMAP="#ImageMap.LuccaFirst" type="image/svg+xml" src="LuccaFirst.png" height="483" width="1621"></img>
+</p>
+<MAP NAME="ImageMap.LuccaFirst">
+<AREA SHAPE="rect" HREF="#Place.LuccaFirst.FlorenceDepartures" COORDS="55,229 75,249">
+<AREA SHAPE="rect" HREF="#Place.LuccaFirst.FlorenceArrivals" COORDS="45,339 65,359">
+<AREA SHAPE="rect" HREF="#Place.LuccaFirst.PistoiaToLucca" COORDS="495,239 515,259">
+<AREA SHAPE="rect" HREF="#Place.LuccaFirst.PistoiaToFlorence" COORDS="495,299 515,319">
+<AREA SHAPE="rect" HREF="#Place.LuccaFirst.Signal" COORDS="645,249 665,269">
+<AREA SHAPE="rect" HREF="#Place.LuccaFirst.FaultyTrain" COORDS="755,279 775,299">
+<AREA SHAPE="rect" HREF="#Place.LuccaFirst.LuccaToViareggio" COORDS="1015,239 1035,259">
+<AREA SHAPE="rect" HREF="#Place.LuccaFirst.LuccaToPistoia" COORDS="1015,309 1035,329">
+<AREA SHAPE="rect" HREF="#Place.LuccaFirst.ViareggioArrivals" COORDS="1535,199 1555,219">
+<AREA SHAPE="rect" HREF="#Place.LuccaFirst.ViareggioDepartures" COORDS="1545,329 1565,349">
+<AREA SHAPE="rect" HREF="#Place.LuccaFirst.SignalFaulty" COORDS="821,210 841,230">
+<AREA SHAPE="rect" HREF="#Input Gate.LuccaFirst.EnableFlorencePistoia" COORDS="215,169 235,189">
+<AREA SHAPE="rect" HREF="#Input Gate.LuccaFirst.EnablePistoiaFlorence" COORDS="245,379 265,399">
+<AREA SHAPE="rect" HREF="#Input Gate.LuccaFirst.EnablePistoiaLucca" COORDS="605,119 625,139">
+<AREA SHAPE="rect" HREF="#Input Gate.LuccaFirst.EnableLuccaPistoia" COORDS="625,409 645,429">
+<AREA SHAPE="rect" HREF="#Input Gate.LuccaFirst.EnableLuccaViareggio" COORDS="1165,159 1185,179">
+<AREA SHAPE="rect" HREF="#Input Gate.LuccaFirst.EnableViareggioLucca" COORDS="1215,389 1235,409">
+<AREA SHAPE="rect" HREF="#Output Gate.LuccaFirst.GatePistoiaToLucca" COORDS="887,113 907,133">
+<AREA SHAPE="rect" HREF="#Output Gate.LuccaFirst.GateFaulty" COORDS="915,279 935,299">
+<AREA SHAPE="rect" HREF="#Output Gate.LuccaFirst.GateLuccaToPistoia" COORDS="905,403 925,423">
+<AREA SHAPE="rect" HREF="#Timed Activity.LuccaFirst.FlorenceCleaningService" COORDS="132,284 138,314">
+<AREA SHAPE="rect" HREF="#Timed Activity.LuccaFirst.trackFlorencePistoia" COORDS="372,164 378,194">
+<AREA SHAPE="rect" HREF="#Timed Activity.LuccaFirst.trackPistoiaFlorence" COORDS="402,374 408,404">
+<AREA SHAPE="rect" HREF="#Timed Activity.LuccaFirst.trackPistoiaToLucca" COORDS="759,114 771,144">
+<AREA SHAPE="rect" HREF="#Timed Activity.LuccaFirst.trackLuccaPistoia" COORDS="759,404 771,434">
+<AREA SHAPE="rect" HREF="#Timed Activity.LuccaFirst.failure" COORDS="842,274 848,304">
+<AREA SHAPE="rect" HREF="#Timed Activity.LuccaFirst.trackLuccaViareggio" COORDS="1352,154 1358,184">
+<AREA SHAPE="rect" HREF="#Timed Activity.LuccaFirst.trackViareggioLucca" COORDS="1372,384 1378,414">
+<AREA SHAPE="rect" HREF="#Timed Activity.LuccaFirst.ViareggioCleaningService" COORDS="1482,254 1488,284">
+</MAP>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<caption align="Top"><font size="2"><B><font color="black">Place Attributes</font></B>: </caption>
+<tr ><th width="150" > <font size="2"><B>Place Names</B></th><th width="500" > <font size="2"><B>Initial Markings</B></th></tr>
+<tr ><td > <font size="2"><font color="blue"><a name="Place.LuccaFirst.FaultyTrain" >FaultyTrain</a>
+</font></td><td > <font size="2"><center>0</center></td></tr>
+<tr ><td > <font size="2"><font color="blue"><a name="Place.LuccaFirst.FlorenceArrivals" >FlorenceArrivals</a>
+</font></td><td > <font size="2"><center>0</center></td></tr>
+<tr ><td > <font size="2"><font color="blue"><a name="Place.LuccaFirst.FlorenceDepartures" >FlorenceDepartures</a>
+</font></td><td > <font size="2"><center>N</center></td></tr>
+<tr ><td > <font size="2"><font color="blue"><a name="Place.LuccaFirst.LuccaToPistoia" >LuccaToPistoia</a>
+</font></td><td > <font size="2"><center>0</center></td></tr>
+<tr ><td > <font size="2"><font color="blue"><a name="Place.LuccaFirst.LuccaToViareggio" >LuccaToViareggio</a>
+</font></td><td > <font size="2"><center>0</center></td></tr>
+<tr ><td > <font size="2"><font color="blue"><a name="Place.LuccaFirst.PistoiaToFlorence" >PistoiaToFlorence</a>
+</font></td><td > <font size="2"><center>0</center></td></tr>
+<tr ><td > <font size="2"><font color="blue"><a name="Place.LuccaFirst.PistoiaToLucca" >PistoiaToLucca</a>
+</font></td><td > <font size="2"><center>0</center></td></tr>
+<tr ><td > <font size="2"><font color="blue"><a name="Place.LuccaFirst.Signal" >Signal</a>
+</font></td><td > <font size="2"><center>1</center></td></tr>
+<tr ><td > <font size="2"><font color="blue"><a name="Place.LuccaFirst.SignalFaulty" >SignalFaulty</a>
+</font></td><td > <font size="2"><center>0</center></td></tr>
+<tr ><td > <font size="2"><font color="blue"><a name="Place.LuccaFirst.ViareggioArrivals" >ViareggioArrivals</a>
+</font></td><td > <font size="2"><center>0</center></td></tr>
+<tr ><td > <font size="2"><font color="blue"><a name="Place.LuccaFirst.ViareggioDepartures" >ViareggioDepartures</a>
+</font></td><td > <font size="2"><center>N</center></td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Timed Activity: </th><th width="500" > <font size="2"><font color="blue"><a name="Timed Activity.LuccaFirst.FlorenceCleaningService" ><B>FlorenceCleaningService</B></a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center><BR> Distribution Parameters</center></B></td><td > <font size="2"><B>Rate</B><br>
+<pre><font size="2">
+2.0
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Activation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+<tr ><td > <font size="2"><B><center>Reactivation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Timed Activity: </th><th width="500" > <font size="2"><font color="blue"><a name="Timed Activity.LuccaFirst.ViareggioCleaningService" ><B>ViareggioCleaningService</B></a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center><BR> Distribution Parameters</center></B></td><td > <font size="2"><B>Rate</B><br>
+<pre><font size="2">
+2.0
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Activation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+<tr ><td > <font size="2"><B><center>Reactivation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Timed Activity: </th><th width="500" > <font size="2"><font color="blue"><a name="Timed Activity.LuccaFirst.failure" ><B>failure</B></a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center><BR> Distribution Parameters</center></B></td><td > <font size="2"><B>Rate</B><br>
+<pre><font size="2">
+2.0/3.0
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Activation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+<tr ><td > <font size="2"><B><center>Reactivation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Timed Activity: </th><th width="500" > <font size="2"><font color="blue"><a name="Timed Activity.LuccaFirst.trackFlorencePistoia" ><B>trackFlorencePistoia</B></a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center><BR> Distribution Parameters</center></B></td><td > <font size="2"><B>Rate</B><br>
+<pre><font size="2">
+2.0
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Activation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+<tr ><td > <font size="2"><B><center>Reactivation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Timed Activity: </th><th width="500" > <font size="2"><font color="blue"><a name="Timed Activity.LuccaFirst.trackLuccaPistoia" ><B>trackLuccaPistoia</B></a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center><BR> Distribution Parameters</center></B></td><td > <font size="2"><B>Rate</B><br>
+<pre><font size="2">
+1.5
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Activation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+<tr ><td > <font size="2"><B><center>Reactivation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+<tr ><td > <font size="2"><B><center>Case Distributions</center></B></td><td > <font size="2"><B>case 1</B><br>
+<pre><font size="2">
+1-h
+</font></pre>
+<B>case 2</B><br>
+<pre><font size="2">
+h
+</font></pre>
+</td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Timed Activity: </th><th width="500" > <font size="2"><font color="blue"><a name="Timed Activity.LuccaFirst.trackLuccaViareggio" ><B>trackLuccaViareggio</B></a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center><BR> Distribution Parameters</center></B></td><td > <font size="2"><B>Rate</B><br>
+<pre><font size="2">
+1.2
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Activation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+<tr ><td > <font size="2"><B><center>Reactivation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Timed Activity: </th><th width="500" > <font size="2"><font color="blue"><a name="Timed Activity.LuccaFirst.trackPistoiaFlorence" ><B>trackPistoiaFlorence</B></a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center><BR> Distribution Parameters</center></B></td><td > <font size="2"><B>Rate</B><br>
+<pre><font size="2">
+2.0
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Activation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+<tr ><td > <font size="2"><B><center>Reactivation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Timed Activity: </th><th width="500" > <font size="2"><font color="blue"><a name="Timed Activity.LuccaFirst.trackPistoiaToLucca" ><B>trackPistoiaToLucca</B></a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center><BR> Distribution Parameters</center></B></td><td > <font size="2"><B>Rate</B><br>
+<pre><font size="2">
+1.5
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Activation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+<tr ><td > <font size="2"><B><center>Reactivation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+<tr ><td > <font size="2"><B><center>Case Distributions</center></B></td><td > <font size="2"><B>case 1</B><br>
+<pre><font size="2">
+1-h
+</font></pre>
+<B>case 2</B><br>
+<pre><font size="2">
+h
+</font></pre>
+</td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Timed Activity: </th><th width="500" > <font size="2"><font color="blue"><a name="Timed Activity.LuccaFirst.trackViareggioLucca" ><B>trackViareggioLucca</B></a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center><BR> Distribution Parameters</center></B></td><td > <font size="2"><B>Rate</B><br>
+<pre><font size="2">
+1.2
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Activation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+<tr ><td > <font size="2"><B><center>Reactivation Predicate</center></B></td><td > <font size="2"><center>(none)</center></td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Input Gate:</th><th width="500" > <font size="2"><font color="blue"><a name="Input Gate.LuccaFirst.EnableFlorencePistoia" >EnableFlorencePistoia</a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center>Predicate</center></B></td><td > <font size="2"><pre><font size="2">
+((PistoiaToLucca-&gt;Mark() + PistoiaToFlorence-&gt;Mark()) &lt; P)
+&& (FlorenceDepartures-&gt;Mark() &gt; 0)
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Function</center></B></td><td > <font size="2"><pre><font size="2">
+FlorenceDepartures-&gt;Mark()--;
+</font></pre>
+</td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Input Gate:</th><th width="500" > <font size="2"><font color="blue"><a name="Input Gate.LuccaFirst.EnableLuccaPistoia" >EnableLuccaPistoia</a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center>Predicate</center></B></td><td > <font size="2"><pre><font size="2">
+(FaultyTrain-&gt;Mark()==0)
+ && ( PistoiaToLucca-&gt;Mark()  &lt; P +1 ) 
+ && (LuccaToPistoia-&gt;Mark() &gt; 0) 
+ && (Signal-&gt;Mark()==1)
+
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Function</center></B></td><td > <font size="2"><pre><font size="2">
+LuccaToPistoia-&gt;Mark() --;
+Signal-&gt;Mark()=0;
+</font></pre>
+</td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Input Gate:</th><th width="500" > <font size="2"><font color="blue"><a name="Input Gate.LuccaFirst.EnableLuccaViareggio" >EnableLuccaViareggio</a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center>Predicate</center></B></td><td > <font size="2"><pre><font size="2">
+(LuccaToViareggio-&gt;Mark() &gt; 0)
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Function</center></B></td><td > <font size="2"><pre><font size="2">
+LuccaToViareggio-&gt;Mark() --;
+</font></pre>
+</td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Input Gate:</th><th width="500" > <font size="2"><font color="blue"><a name="Input Gate.LuccaFirst.EnablePistoiaFlorence" >EnablePistoiaFlorence</a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center>Predicate</center></B></td><td > <font size="2"><pre><font size="2">
+( PistoiaToFlorence-&gt;Mark() &gt; 0 )
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Function</center></B></td><td > <font size="2"><pre><font size="2">
+PistoiaToFlorence-&gt;Mark()--;
+</font></pre>
+</td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Input Gate:</th><th width="500" > <font size="2"><font color="blue"><a name="Input Gate.LuccaFirst.EnablePistoiaLucca" >EnablePistoiaLucca</a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center>Predicate</center></B></td><td > <font size="2"><pre><font size="2">
+(FaultyTrain-&gt;Mark()==0)
+ && (PistoiaToLucca-&gt;Mark() &gt; 0) 
+ && (LuccaToPistoia-&gt;Mark()==0) 
+ && (Signal-&gt;Mark()==1)
+
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Function</center></B></td><td > <font size="2"><pre><font size="2">
+PistoiaToLucca-&gt;Mark() --;
+Signal-&gt;Mark()=0;
+
+
+
+
+</font></pre>
+</td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Input Gate:</th><th width="500" > <font size="2"><font color="blue"><a name="Input Gate.LuccaFirst.EnableViareggioLucca" >EnableViareggioLucca</a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center>Predicate</center></B></td><td > <font size="2"><pre><font size="2">
+((LuccaToViareggio-&gt;Mark() + LuccaToPistoia-&gt;Mark()) &lt; L)
+&& (ViareggioDepartures-&gt;Mark() &gt; 0)
+</font></pre>
+</td></tr>
+<tr ><td > <font size="2"><B><center>Function</center></B></td><td > <font size="2"><pre><font size="2">
+ViareggioDepartures-&gt;Mark() -- ;
+</font></pre>
+</td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Output Gate:</th><th width="500" > <font size="2"><font color="blue"><a name="Output Gate.LuccaFirst.GateFaulty" >GateFaulty</a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center>Function</center></B></td><td > <font size="2"><pre><font size="2">
+if ( SignalFaulty-&gt;Mark()==1 ){
+	LuccaToViareggio-&gt;Mark() ++;
+	Signal-&gt;Mark()=1;
+	SignalFaulty-&gt;Mark()=0;
+}else{
+	PistoiaToFlorence-&gt;Mark() ++;
+	Signal-&gt;Mark()=1;
+}
+</font></pre>
+</td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Output Gate:</th><th width="500" > <font size="2"><font color="blue"><a name="Output Gate.LuccaFirst.GateLuccaToPistoia" >GateLuccaToPistoia</a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center>Function</center></B></td><td > <font size="2"><pre><font size="2">
+PistoiaToFlorence-&gt;Mark() ++;
+Signal-&gt;Mark()=1;
+</font></pre>
+</td></tr>
+</font>
+</table>
+<p>
+
+
+<p>
+<table border="1"CELLSPACING="0" >
+<tr ><th width="150" > <font size="2">Output Gate:</th><th width="500" > <font size="2"><font color="blue"><a name="Output Gate.LuccaFirst.GatePistoiaToLucca" >GatePistoiaToLucca</a>
+</font></th></tr>
+<tr ><td > <font size="2"><B><center>Function</center></B></td><td > <font size="2"><pre><font size="2">
+LuccaToViareggio-&gt;Mark() ++;
+Signal-&gt;Mark()=1;
+</font></pre>
+</td></tr>
+</font>
+</table>
+<p>
+
+</body>
+<hr>HTML generated by M&#246bius Documentor

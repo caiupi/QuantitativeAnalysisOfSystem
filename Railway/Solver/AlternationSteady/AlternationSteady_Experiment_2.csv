@@ -1,0 +1,34 @@
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,4,SteadyStateFlorence,-1.000000,-1.000000,Results,0.753903,0.675341,4
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.456913,0.456913
+Dist,1.000000,0.366359,0.823272
+Dist,2.000000,0.142640,0.965912
+Dist,3.000000,0.034088,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,5,SteadyStatePistoia,-1.000000,-1.000000,Results,1.731030,0.741206,4
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.090709,0.090709
+Dist,1.000000,0.269132,0.359841
+Dist,2.000000,0.458578,0.818419
+Dist,3.000000,0.181581,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,6,SteadyStateLucca,-1.000000,-1.000000,Results,2.318363,1.239784,5
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.067565,0.067565
+Dist,1.000000,0.166975,0.234540
+Dist,2.000000,0.286708,0.521249
+Dist,3.000000,0.337034,0.858283
+Dist,4.000000,0.141717,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,7,SteadyStateViareggio,-1.000000,-1.000000,Results,1.194876,1.177777,5
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.315209,0.315209
+Dist,1.000000,0.338321,0.653530
+Dist,2.000000,0.214469,0.867999
+Dist,3.000000,0.100387,0.968386
+Dist,4.000000,0.031614,1.000000
+

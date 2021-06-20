@@ -1,0 +1,271 @@
+Mobius trs Version 2.5, 
+Copyright (c) William H. Sanders and Univ. of Illinois 1994-2010
+
+******************************************************************************
+                           Mobius TRANSIENT SOLVER 
+
+                          TRANSIENT SOLVER RESULTS
+******************************************************************************
+
+Started: Sun Jan 31 10:15:09 2021
+
+Project name: Railway
+Study name: Analysis1
+State space name: AlternationState
+Experiment name: Experiment_6
+
+Global variable settings for this experiment:
+	L = 6
+	N = 11
+	P = 4
+	h = 0.001
+
+Verbosity: 0
+Accuracy: 1.000000e-009
+Time points: 1.000000 6.000000 12.000000 24.000000 48.000000 96.000000 192.000000 384.000000
+Computation Time (seconds): 37.501000
+User Time (seconds): 37.501000
+System Time (seconds): 0.000000
+Rate of Poisson process: 11.900000
+Number of states in process: 131950
+Number of states with reward: 131950
+Number of time points: 8
+
+      Time Point       Left Trunc.      # Iterations          Error     
+   ---------------   ---------------   ---------------   ---------------
+          1.000000                 0                48     1.000000e-009
+          6.000000                10               157     1.000000e-009
+         12.000000                57               263     1.000000e-009
+         24.000000               165               455     1.000000e-009
+         48.000000               402               810     1.000000e-009
+         96.000000               904              1479     1.000000e-009
+        192.000000              1948              2760     1.000000e-009
+        384.000000              4094              5241     1.000000e-009
+
+******************************************************************************
+Performance variable :  TrainToFlorence
+Time                 :  1.000000
+Mean                 :  9.095354e+000
+Variance             :  1.699342e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToFlorence.1.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToFlorence.1.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToPistoia
+Time                 :  1.000000
+Mean                 :  1.500191e+000
+Variance             :  1.531238e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToPistoia.1.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToPistoia.1.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToLucca
+Time                 :  1.000000
+Mean                 :  1.404883e+000
+Variance             :  1.324294e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToLucca.1.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToLucca.1.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToViareggio
+Time                 :  1.000000
+Mean                 :  9.999041e+000
+Variance             :  1.354992e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToViareggio.1.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToViareggio.1.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToFlorence
+Time                 :  6.000000
+Mean                 :  6.863928e+000
+Variance             :  7.629768e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToFlorence.6.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToFlorence.6.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToPistoia
+Time                 :  6.000000
+Mean                 :  3.609992e+000
+Variance             :  8.055862e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToPistoia.6.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToPistoia.6.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToLucca
+Time                 :  6.000000
+Mean                 :  3.991172e+000
+Variance             :  3.341266e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToLucca.6.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToLucca.6.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToViareggio
+Time                 :  6.000000
+Mean                 :  7.532913e+000
+Variance             :  3.357549e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToViareggio.6.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToViareggio.6.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToFlorence
+Time                 :  12.000000
+Mean                 :  6.879035e+000
+Variance             :  7.426571e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToFlorence.12.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToFlorence.12.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToPistoia
+Time                 :  12.000000
+Mean                 :  3.608642e+000
+Variance             :  7.942827e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToPistoia.12.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToPistoia.12.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToLucca
+Time                 :  12.000000
+Mean                 :  4.706339e+000
+Variance             :  2.452811e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToLucca.12.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToLucca.12.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToViareggio
+Time                 :  12.000000
+Mean                 :  6.803830e+000
+Variance             :  2.382735e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToViareggio.12.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToViareggio.12.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToFlorence
+Time                 :  24.000000
+Mean                 :  6.885445e+000
+Variance             :  7.509562e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToFlorence.24.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToFlorence.24.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToPistoia
+Time                 :  24.000000
+Mean                 :  3.603255e+000
+Variance             :  8.021469e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToPistoia.24.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToPistoia.24.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToLucca
+Time                 :  24.000000
+Mean                 :  4.833535e+000
+Variance             :  2.190883e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToLucca.24.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToLucca.24.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToViareggio
+Time                 :  24.000000
+Mean                 :  6.675600e+000
+Variance             :  2.103324e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToViareggio.24.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToViareggio.24.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToFlorence
+Time                 :  48.000000
+Mean                 :  6.884935e+000
+Variance             :  7.505944e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToFlorence.48.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToFlorence.48.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToPistoia
+Time                 :  48.000000
+Mean                 :  3.603577e+000
+Variance             :  8.016919e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToPistoia.48.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToPistoia.48.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToLucca
+Time                 :  48.000000
+Mean                 :  4.831451e+000
+Variance             :  2.194292e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToLucca.48.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToLucca.48.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToViareggio
+Time                 :  48.000000
+Mean                 :  6.677873e+000
+Variance             :  2.107116e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToViareggio.48.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToViareggio.48.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToFlorence
+Time                 :  96.000000
+Mean                 :  6.884933e+000
+Variance             :  7.505921e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToFlorence.96.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToFlorence.96.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToPistoia
+Time                 :  96.000000
+Mean                 :  3.603578e+000
+Variance             :  8.016895e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToPistoia.96.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToPistoia.96.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToLucca
+Time                 :  96.000000
+Mean                 :  4.831424e+000
+Variance             :  2.194348e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToLucca.96.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToLucca.96.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToViareggio
+Time                 :  96.000000
+Mean                 :  6.677901e+000
+Variance             :  2.107176e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToViareggio.96.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToViareggio.96.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToFlorence
+Time                 :  192.000000
+Mean                 :  6.884933e+000
+Variance             :  7.505921e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToFlorence.192.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToFlorence.192.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToPistoia
+Time                 :  192.000000
+Mean                 :  3.603578e+000
+Variance             :  8.016895e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToPistoia.192.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToPistoia.192.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToLucca
+Time                 :  192.000000
+Mean                 :  4.831424e+000
+Variance             :  2.194348e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToLucca.192.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToLucca.192.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToViareggio
+Time                 :  192.000000
+Mean                 :  6.677901e+000
+Variance             :  2.107176e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToViareggio.192.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToViareggio.192.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToFlorence
+Time                 :  384.000000
+Mean                 :  6.884933e+000
+Variance             :  7.505921e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToFlorence.384.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToFlorence.384.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToPistoia
+Time                 :  384.000000
+Mean                 :  3.603578e+000
+Variance             :  8.016895e-001
+Plot files    (pdf)  :  Experiment_6.trs.TrainToPistoia.384.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToPistoia.384.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToLucca
+Time                 :  384.000000
+Mean                 :  4.831424e+000
+Variance             :  2.194348e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToLucca.384.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToLucca.384.000.cdf.splot
+******************************************************************************
+Performance variable :  TrainToViareggio
+Time                 :  384.000000
+Mean                 :  6.677901e+000
+Variance             :  2.107176e+000
+Plot files    (pdf)  :  Experiment_6.trs.TrainToViareggio.384.000.pdf.splot
+              (cdf)  :  Experiment_6.trs.TrainToViareggio.384.000.cdf.splot
+******************************************************************************
+Finished: Sun Jan 31 10:15:48 2021
+

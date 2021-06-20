@@ -1,0 +1,99 @@
+
+**********************************************************
+
+State Generation initiated on Experiment_1 of LuccaFirstState started at Wed Feb 03 22:51:11 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/LuccaFirstState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius5918701148701372353license
+License Verified.
+The Global Variable values for experiment Experiment 1 are:
+L	int	6
+N	int	7
+P	int	4
+h	double	1e-005
+SSG: SetTraceLevel: 0
+
+Generated: 1083859 states
+Computation Time (user + system): 8.436600e+001 seconds
+State Generation of Experiment_1 on model LuccaFirstState finished at Wed Feb 03 22:52:36 CET 2021.
+
+
+**********************************************************
+
+**********************************************************
+
+State Generation initiated on Experiment_2 of LuccaFirstState started at Wed Feb 03 22:52:36 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/LuccaFirstState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius8656092394322402414license
+License Verified.
+The Global Variable values for experiment Experiment 2 are:
+L	int	6
+N	int	7
+P	int	4
+h	double	0.0001
+SSG: SetTraceLevel: 0
+
+
+Generated: 1083859 states
+Computation Time (user + system): 8.366200e+001 seconds
+State Generation of Experiment_2 on model LuccaFirstState finished at Wed Feb 03 22:54:00 CET 2021.
+
+
+**********************************************************
+
+**********************************************************
+
+State Generation initiated on Experiment_3 of LuccaFirstState started at Wed Feb 03 22:54:00 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/LuccaFirstState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius7488526259961868018license
+License Verified.
+The Global Variable values for experiment Experiment 3 are:
+L	int	6
+N	int	7
+P	int	4
+h	double	0.001
+SSG: SetTraceLevel: 0
+
+Generated: 1083859 states
+Computation Time (user + system): 8.344400e+001 seconds
+State Generation of Experiment_3 on model LuccaFirstState finished at Wed Feb 03 22:55:25 CET 2021.
+
+
+**********************************************************
+
+**********************************************************
+
+State Generation initiated on Experiment_4 of LuccaFirstState started at Wed Feb 03 22:55:25 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/LuccaFirstState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius7750245946964865925license
+License Verified.
+The Global Variable values for experiment Experiment 4 are:
+L	int	6
+N	int	7
+P	int	4
+h	double	0.01
+SSG: SetTraceLevel: 0
+
+Generated: 1083859 states
+Computation Time (user + system): 8.361600e+001 seconds
+State Generation of Experiment_4 on model LuccaFirstState finished at Wed Feb 03 22:56:49 CET 2021.
+
+
+**********************************************************
+
+**********************************************************
+
+State Generation initiated on Experiment_5 of LuccaFirstState started at Wed Feb 03 22:56:49 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/LuccaFirstState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius7548082711250877722license
+License Verified.
+The Global Variable values for experiment Experiment 5 are:
+L	int	6
+N	int	7
+P	int	4
+h	double	0.1
+SSG: SetTraceLevel: 0
+
+Generated: 1083859 states
+Computation Time (user + system): 8.351300e+001 seconds
+State Generation of Experiment_5 on model LuccaFirstState finished at Wed Feb 03 22:58:13 CET 2021.
+

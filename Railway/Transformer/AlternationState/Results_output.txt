@@ -1,0 +1,107 @@
+
+**********************************************************
+
+State Generation initiated on Experiment_1 of AlternationState started at Wed Feb 03 21:50:24 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/AlternationState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius6745174374796807987license
+License Verified.
+The Global Variable values for experiment Experiment 1 are:
+L	int	6
+N	int	7
+P	int	4
+h	double	1e-005
+SSG: SetTraceLevel: 0
+
+
+
+Generated: 188104 states
+Computation Time (user + system): 1.322100e+001 seconds
+State Generation of Experiment_1 on model AlternationState finished at Wed Feb 03 21:50:38 CET 2021.
+
+
+**********************************************************
+
+**********************************************************
+
+State Generation initiated on Experiment_2 of AlternationState started at Wed Feb 03 21:50:38 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/AlternationState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius1019058554667490854license
+License Verified.
+The Global Variable values for experiment Experiment 2 are:
+L	int	6
+N	int	7
+P	int	4
+h	double	0.0001
+SSG: SetTraceLevel: 0
+
+
+Generated: 188104 states
+Computation Time (user + system): 1.329400e+001 seconds
+State Generation of Experiment_2 on model AlternationState finished at Wed Feb 03 21:50:52 CET 2021.
+
+
+**********************************************************
+
+**********************************************************
+
+State Generation initiated on Experiment_3 of AlternationState started at Wed Feb 03 21:50:52 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/AlternationState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius2196069576163321657license
+License Verified.
+The Global Variable values for experiment Experiment 3 are:
+L	int	6
+N	int	7
+P	int	4
+h	double	0.001
+SSG: SetTraceLevel: 0
+
+
+
+Generated: 188104 states
+Computation Time (user + system): 1.323900e+001 seconds
+State Generation of Experiment_3 on model AlternationState finished at Wed Feb 03 21:51:06 CET 2021.
+
+
+**********************************************************
+
+**********************************************************
+
+State Generation initiated on Experiment_4 of AlternationState started at Wed Feb 03 21:51:06 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/AlternationState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius7091442145159502984license
+License Verified.
+The Global Variable values for experiment Experiment 4 are:
+L	int	6
+N	int	7
+P	int	4
+h	double	0.01
+SSG: SetTraceLevel: 0
+
+
+Generated: 188104 states
+Computation Time (user + system): 1.309500e+001 seconds
+State Generation of Experiment_4 on model AlternationState finished at Wed Feb 03 21:51:19 CET 2021.
+
+
+**********************************************************
+
+**********************************************************
+
+State Generation initiated on Experiment_5 of AlternationState started at Wed Feb 03 21:51:19 CET 2021 ...
+path=[c:/MobiusProject/Railway/Transformer/AlternationState/]
+License File=C:\Users\caiup\AppData\Local\Temp\mobius4105611581887356161license
+License Verified.
+The Global Variable values for experiment Experiment 5 are:
+L	int	6
+N	int	7
+P	int	4
+h	double	0.1
+SSG: SetTraceLevel: 0
+
+
+
+
+Generated: 188104 states
+Computation Time (user + system): 1.307600e+001 seconds
+State Generation of Experiment_5 on model AlternationState finished at Wed Feb 03 21:51:33 CET 2021.
+

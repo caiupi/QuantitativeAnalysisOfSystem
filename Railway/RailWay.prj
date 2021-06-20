@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ASCII"?>
+<models:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:models="http://www.mobius.illinois.edu/projects" name="Railway" author="Bajron Ismailaj" creationDate="2020-12-30T01:13:21.506+0100" lastSavedVersion="2.5.10.201907161116">
+  <atomic key="PistoiaFirst">
+    <value name="PistoiaFirst" type="SAN Model"/>
+  </atomic>
+  <atomic key="LuccaFirst">
+    <value name="LuccaFirst" type="SAN Model"/>
+  </atomic>
+  <atomic key="Alternation">
+    <value name="Alternation" type="SAN Model"/>
+  </atomic>
+  <reward key="PistoiaFirstAnalysis3">
+    <value name="PistoiaFirstAnalysis3" category="Reward" type="Performance Variables Model"/>
+  </reward>
+  <reward key="LuccaFirstAnalysis2">
+    <value name="LuccaFirstAnalysis2" category="Reward" type="Performance Variables Model"/>
+  </reward>
+  <reward key="LuccaFirstAnalysis3">
+    <value name="LuccaFirstAnalysis3" category="Reward" type="Performance Variables Model"/>
+  </reward>
+  <reward key="LuccaFirstAnalisys1">
+    <value name="LuccaFirstAnalisys1" category="Reward" type="Performance Variables Model"/>
+  </reward>
+  <reward key="PistoiaFisrtAnalisys1">
+    <value name="PistoiaFisrtAnalisys1" category="Reward" type="Performance Variables Model"/>
+  </reward>
+  <reward key="AlternationAnalysis1">
+    <value name="AlternationAnalysis1" category="Reward" type="Performance Variables Model"/>
+  </reward>
+  <reward key="AlternationAnalysis2">
+    <value name="AlternationAnalysis2" category="Reward" type="Performance Variables Model"/>
+  </reward>
+  <reward key="AlternationAnalysis3">
+    <value name="AlternationAnalysis3" category="Reward" type="Performance Variables Model"/>
+  </reward>
+  <reward key="PistoiaFirstAnalysis2">
+    <value name="PistoiaFirstAnalysis2" category="Reward" type="Performance Variables Model"/>
+  </reward>
+  <study key="AlternationAnalysis4">
+    <value name="AlternationAnalysis4" category="Study" type="Range Study"/>
+  </study>
+  <study key="LuccaFirstAnalysis4">
+    <value name="LuccaFirstAnalysis4" category="Study" type="Range Study"/>
+  </study>
+  <study key="Analysis1">
+    <value name="Analysis1" category="Study" type="Range Study"/>
+  </study>
+  <study key="PistoiaFirstAnalysis4">
+    <value name="PistoiaFirstAnalysis4" category="Study" type="Range Study"/>
+  </study>
+  <study key="Analysis2">
+    <value name="Analysis2" category="Study" type="Range Study"/>
+  </study>
+  <study key="Analysis3">
+    <value name="Analysis3" category="Study" type="Range Study"/>
+  </study>
+  <transformer key="PistoiaFirstState">
+    <value name="PistoiaFirstState" category="Transformer" type="State Space Generator"/>
+  </transformer>
+  <transformer key="LuccaFirstState">
+    <value name="LuccaFirstState" category="Transformer" type="State Space Generator"/>
+  </transformer>
+  <transformer key="AlternationState">
+    <value name="AlternationState" category="Transformer" type="State Space Generator"/>
+  </transformer>
+  <solver key="LuccaFirstAnalysis3">
+    <value name="LuccaFirstAnalysis3" category="Solver" type="Accumulated Reward Solver"/>
+  </solver>
+  <solver key="LuccaFirstAnalysis4">
+    <value name="LuccaFirstAnalysis4" category="Solver" type="Accumulated Reward Solver"/>
+  </solver>
+  <solver key="AlternationAnalysis1Transient">
+    <value name="AlternationAnalysis1Transient" category="Solver" type="Transient Solver"/>
+  </solver>
+  <solver key="LuccaFirstSteady">
+    <value name="LuccaFirstSteady" category="Solver" type="Iterative Steady State Solver"/>
+  </solver>
+  <solver key="AlternationAnalisys2">
+    <value name="AlternationAnalisys2" category="Solver" type="Accumulated Reward Solver"/>
+  </solver>
+  <solver key="AlternationAnalysis3">
+    <value name="AlternationAnalysis3" category="Solver" type="Accumulated Reward Solver"/>
+  </solver>
+  <solver key="AlternationAnalysis4">
+    <value name="AlternationAnalysis4" category="Solver" type="Accumulated Reward Solver"/>
+  </solver>
+  <solver key="PistoiaFirstSteady">
+    <value name="PistoiaFirstSteady" category="Solver" type="Iterative Steady State Solver"/>
+  </solver>
+  <solver key="PistoiaFirstAnalysis1Transient">
+    <value name="PistoiaFirstAnalysis1Transient" category="Solver" type="Transient Solver"/>
+  </solver>
+  <solver key="LuccaFirstAnalysis1Transient">
+    <value name="LuccaFirstAnalysis1Transient" category="Solver" type="Transient Solver"/>
+  </solver>
+  <solver key="AlternationSteady">
+    <value name="AlternationSteady" category="Solver" type="Iterative Steady State Solver"/>
+  </solver>
+  <solver key="PistoiaFirstAnalysis2">
+    <value name="PistoiaFirstAnalysis2" category="Solver" type="Accumulated Reward Solver"/>
+  </solver>
+  <solver key="PistoiaFirstAnalysis3">
+    <value name="PistoiaFirstAnalysis3" category="Solver" type="Accumulated Reward Solver"/>
+  </solver>
+  <solver key="PistoiaFirstAnalysis4">
+    <value name="PistoiaFirstAnalysis4" category="Solver" type="Accumulated Reward Solver"/>
+  </solver>
+  <solver key="LuccaFirstAnalysis2">
+    <value name="LuccaFirstAnalysis2" category="Solver" type="Accumulated Reward Solver"/>
+  </solver>
+</models:Project>

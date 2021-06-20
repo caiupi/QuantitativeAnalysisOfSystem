@@ -1,0 +1,63 @@
+Mobius sor Version 2.5, 
+Copyright (c) William H. Sanders and Univ. of Illinois 1994-2010
+
+******************************************************************************
+                  Mobius ITERATIVE SOR STEADY STATE SOLVER 
+
+                  ITERATIVE SOR STEADY STATE SOLVER RESULTS
+******************************************************************************
+
+Started: Tue Feb 02 14:08:33 2021
+
+Project name: Railway
+Study name: Analysis1
+State space name: LuccaFirstState
+Experiment name: Experiment_5
+
+Global variable settings for this experiment:
+	L = 6
+	N = 9
+	P = 4
+	h = 0.001
+
+Verbosity: 0
+Accuracy: 1.000000e-009
+Weight: 0.100000
+Max iterations: 5000000
+Matrix diagonalization off.
+
+Computation Time (seconds): 192.832000
+User Time (seconds): 192.832000
+System Time (seconds): 0.000000
+Number of states in process: 763154
+Number of non-zero elements: 4818380
+Solution converged in 4779 iterations.
+Maximum difference: 9.978656e-010
+
+Computing the performance variables
+******************************************************************************
+Performance variable :  SteadyStateFlorence
+Mean                 :  8.229436e+000
+Variance             :  1.812781e+001
+Plot files    (pdf)  :  Experiment_5.sor.SteadyStateFlorence.pdf.splot
+              (cdf)  :  Experiment_5.sor.SteadyStateFlorence.cdf.splot
+******************************************************************************
+Performance variable :  SteadyStateViareggio
+Mean                 :  3.698698e+000
+Variance             :  1.573693e+001
+Plot files    (pdf)  :  Experiment_5.sor.SteadyStateViareggio.pdf.splot
+              (cdf)  :  Experiment_5.sor.SteadyStateViareggio.cdf.splot
+******************************************************************************
+Performance variable :  StedyStatePistoia
+Mean                 :  3.331622e+000
+Variance             :  2.769979e+000
+Plot files    (pdf)  :  Experiment_5.sor.StedyStatePistoia.pdf.splot
+              (cdf)  :  Experiment_5.sor.StedyStatePistoia.cdf.splot
+******************************************************************************
+Performance variable :  SteadyStateLucca
+Mean                 :  2.738187e+000
+Variance             :  5.516421e+000
+Plot files    (pdf)  :  Experiment_5.sor.SteadyStateLucca.pdf.splot
+              (cdf)  :  Experiment_5.sor.SteadyStateLucca.cdf.splot
+Finished: Tue Feb 02 14:11:46 2021
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<class id="Mobius.Solvers.Analytical.AccumulatedReward.AccumulatedRewardSolverInterface">
+	<int id="ClassVersion">1</int>
+	<class id="Mobius.BaseClasses.BaseInterfaceClass">
+		<int id="ClassVersion">3</int>
+		<string id="ModelName">PistoiaFirstAnalysis2</string>
+		<class id="Mobius.Solvers.Analytical.AccumulatedReward.AccumulatedRewardSolverInfoClass">
+			<int id="ClassVersion">3</int>
+			<class id="Mobius.Solvers.Common.BaseSolverInfo">
+				<int id="ClassVersion">1</int>
+				<class id="Mobius.BaseClasses.BaseInfoClass">
+					<int id="ClassVersion">2</int>
+				</class>
+				<string id="PlotTemplate"></string>
+			</class>
+			<long id="Accuracy">50000000</long>
+			<long id="Verbosity">0</long>
+			<boolean id="PlaceCommentsState">false</boolean>
+			<string id="OutputFileName">PistoiaFirstAnalysis2</string>
+			<null id="Comments"></null>
+			<string id="SSGName">PistoiaFirstState</string>
+		</class>
+		<class id="Mobius.BaseClasses.BaseEditorClass">
+			<int id="ClassVersion">3</int>
+			<boolean id="HasPanel">false</boolean>
+			<vector id="LocalGlobalNamesList">
+			</vector>
+			<vector id="LocalGlobalTypesList">
+			</vector>
+			<boolean id="DisplayToolTips">true</boolean>
+		</class>
+		<boolean id="Valid">true</boolean>
+	</class>
+</class>

@@ -1,0 +1,208 @@
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,0,TrainToFlorence,1.000000,1.000000,Results,0.180919,0.148187,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.819081,0.819081
+Dist,1.000000,0.180919,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,TrainToPistoia,1.000000,1.000000,Results,0.439353,0.246322,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.560647,0.560647
+Dist,1.000000,0.439353,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,2,TrainToLucca,1.000000,1.000000,Results,0.894468,0.403355,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.260012,0.260012
+Dist,1.000000,0.585508,0.845520
+Dist,2.000000,0.154480,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,3,TrainToViareggio,1.000000,1.000000,Results,0.484757,0.367930,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.574324,0.574324
+Dist,1.000000,0.366595,0.940919
+Dist,2.000000,0.059081,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,0,TrainToFlorence,6.000000,6.000000,Results,0.313154,0.215089,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.686846,0.686846
+Dist,1.000000,0.313154,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,TrainToPistoia,6.000000,6.000000,Results,0.364701,0.231694,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.635299,0.635299
+Dist,1.000000,0.364701,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,2,TrainToLucca,6.000000,6.000000,Results,0.868876,0.403572,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.275945,0.275945
+Dist,1.000000,0.579234,0.855179
+Dist,2.000000,0.144821,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,3,TrainToViareggio,6.000000,6.000000,Results,0.452342,0.352131,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.599859,0.599859
+Dist,1.000000,0.347940,0.947799
+Dist,2.000000,0.052201,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,0,TrainToFlorence,12.000000,12.000000,Results,0.312512,0.214848,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.687488,0.687488
+Dist,1.000000,0.312512,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,TrainToPistoia,12.000000,12.000000,Results,0.364609,0.231669,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.635391,0.635391
+Dist,1.000000,0.364609,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,2,TrainToLucca,12.000000,12.000000,Results,0.869592,0.403161,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.275288,0.275288
+Dist,1.000000,0.579833,0.855120
+Dist,2.000000,0.144880,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,3,TrainToViareggio,12.000000,12.000000,Results,0.452349,0.352639,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.600106,0.600106
+Dist,1.000000,0.347440,0.947545
+Dist,2.000000,0.052455,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,0,TrainToFlorence,24.000000,24.000000,Results,0.312529,0.214855,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.687471,0.687471
+Dist,1.000000,0.312529,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,TrainToPistoia,24.000000,24.000000,Results,0.364617,0.231672,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.635383,0.635383
+Dist,1.000000,0.364617,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,2,TrainToLucca,24.000000,24.000000,Results,0.869605,0.403149,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.275274,0.275274
+Dist,1.000000,0.579848,0.855121
+Dist,2.000000,0.144879,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,3,TrainToViareggio,24.000000,24.000000,Results,0.452311,0.352612,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.600132,0.600132
+Dist,1.000000,0.347425,0.947557
+Dist,2.000000,0.052443,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,0,TrainToFlorence,48.000000,48.000000,Results,0.312529,0.214855,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.687471,0.687471
+Dist,1.000000,0.312529,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,TrainToPistoia,48.000000,48.000000,Results,0.364617,0.231672,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.635383,0.635383
+Dist,1.000000,0.364617,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,2,TrainToLucca,48.000000,48.000000,Results,0.869605,0.403149,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.275274,0.275274
+Dist,1.000000,0.579848,0.855121
+Dist,2.000000,0.144879,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,3,TrainToViareggio,48.000000,48.000000,Results,0.452311,0.352612,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.600132,0.600132
+Dist,1.000000,0.347425,0.947557
+Dist,2.000000,0.052443,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,0,TrainToFlorence,96.000000,96.000000,Results,0.312529,0.214855,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.687471,0.687471
+Dist,1.000000,0.312529,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,TrainToPistoia,96.000000,96.000000,Results,0.364617,0.231672,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.635383,0.635383
+Dist,1.000000,0.364617,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,2,TrainToLucca,96.000000,96.000000,Results,0.869605,0.403149,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.275274,0.275274
+Dist,1.000000,0.579848,0.855121
+Dist,2.000000,0.144879,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,3,TrainToViareggio,96.000000,96.000000,Results,0.452311,0.352612,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.600132,0.600132
+Dist,1.000000,0.347425,0.947557
+Dist,2.000000,0.052443,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,0,TrainToFlorence,192.000000,192.000000,Results,0.312529,0.214855,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.687471,0.687471
+Dist,1.000000,0.312529,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,TrainToPistoia,192.000000,192.000000,Results,0.364617,0.231672,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.635383,0.635383
+Dist,1.000000,0.364617,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,2,TrainToLucca,192.000000,192.000000,Results,0.869605,0.403149,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.275274,0.275274
+Dist,1.000000,0.579848,0.855121
+Dist,2.000000,0.144879,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,3,TrainToViareggio,192.000000,192.000000,Results,0.452311,0.352612,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.600132,0.600132
+Dist,1.000000,0.347425,0.947557
+Dist,2.000000,0.052443,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,0,TrainToFlorence,384.000000,384.000000,Results,0.312529,0.214855,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.687471,0.687471
+Dist,1.000000,0.312529,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,1,TrainToPistoia,384.000000,384.000000,Results,0.364617,0.231672,2
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.635383,0.635383
+Dist,1.000000,0.364617,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,2,TrainToLucca,384.000000,384.000000,Results,0.869605,0.403149,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.275274,0.275274
+Dist,1.000000,0.579848,0.855121
+Dist,2.000000,0.144879,1.000000
+
+## Exp Num, PV Num, PV Name, Start Time, Stop Time, Type, Mean, Variance,NumDistPts
+0,3,TrainToViareggio,384.000000,384.000000,Results,0.452311,0.352612,3
+## Dist,x, P(X=x), P(X<=x)
+Dist,0.000000,0.600132,0.600132
+Dist,1.000000,0.347425,0.947557
+Dist,2.000000,0.052443,1.000000
+

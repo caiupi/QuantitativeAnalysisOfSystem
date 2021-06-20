@@ -1,0 +1,47 @@
+Mobius ars Version 2.5, 
+Copyright (c) William H. Sanders and Univ. of Illinois 1994-2010
+
+******************************************************************************
+                      Mobius ACCUMULATED REWARD SOLVER 
+
+                      ACCUMULATED REWARD SOLVER RESULTS
+******************************************************************************
+
+Started: Wed Feb 03 10:13:39 2021
+
+Project name: Railway
+Study name: Analysis3
+State space name: AlternationState
+Experiment name: Experiment_21
+
+Global variable settings for this experiment:
+	L = 5
+	N = 7
+	P = 3
+	h = 0.001
+
+Verbosity: 0
+Accuracy: 1.000000e-009
+Time intervals:
+    [0.000000,384.000000]
+
+Computation Time (seconds): 34.746000
+User Time (seconds): 34.746000
+System Time (seconds): 0.000000
+Rate of Poisson process: 11.900000
+Number of states in process: 125425
+Number of states with reward: 30564
+Number of time intervals: 1
+
+      Time Point       Left Trunc.      # Iterations          Error     
+   ---------------   ---------------   ---------------   ---------------
+        384.000000              4094              5241     1.000000e-009
+
+------------------------------------------------------------------------------
+Performance variable             :  TrainCompleted
+Time interval                    :  [0.000000,384.000000]
+Expected accumulated reward      :  5.329216e+002
+Time-averaged accumulated reward :  1.387817e+000
+
+Finished: Wed Feb 03 10:14:14 2021
+

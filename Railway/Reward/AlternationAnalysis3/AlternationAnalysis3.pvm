@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<class id="Mobius.RewardModels.pvs.PVInterface">
+	<int id="ClassVersion">1</int>
+	<class id="Mobius.BaseClasses.BaseInterfaceClass">
+		<int id="ClassVersion">3</int>
+		<string id="ModelName">AlternationAnalysis3</string>
+		<class id="Mobius.RewardModels.pvs.PVInfo">
+			<int id="ClassVersion">3</int>
+			<class id="Mobius.BaseClasses.BaseInfoClass">
+				<int id="ClassVersion">2</int>
+			</class>
+			<string id="OutputDirectory">Reward\\AlternationAnalysis3\\</string>
+			<string id="PVModelFileName">AlternationAnalysis3PVModel</string>
+			<string id="PVNodeFileName">AlternationAnalysis3PVNodes</string>
+			<string id="PVArchiveName">AlternationAnalysis3PV</string>
+			<vector id="IncludePath">
+				<string id="0">Atomic\\Alternation\\AlternationSAN.h</string>
+			</vector>
+			<vector id="HeaderFileList">
+				<string id="0">Reward\\AlternationAnalysis3\\AlternationAnalysis3PVNodes.h</string>
+				<string id="1">Reward\\AlternationAnalysis3\\AlternationAnalysis3PVModel.h</string>
+			</vector>
+			<vector id="CodeFileList">
+				<string id="0">
+					Reward\\AlternationAnalysis3\\AlternationAnalysis3PVNodes.cp
+					p
+				</string>
+				<string id="1">
+					Reward\\AlternationAnalysis3\\AlternationAnalysis3PVModel.cp
+					p
+				</string>
+			</vector>
+			<int id="NumVars">1</int>
+			<class id="Mobius.RewardModels.pvs.VariableInfo">
+				<int id="ClassVersion">7</int>
+				<string id="Name">TrainCompleted</string>
+				<vector id="AffectingModelList">
+					<string id="0">Alternation</string>
+				</vector>
+				<vector id="AffectingActionsList">
+					<string id="0">RailWay4-&gt;trackPistoiaFlorence</string>
+					<string id="1">Alternation-&gt;trackPistoiaFlorence</string>
+					<string id="2">Alternation-&gt;trackLuccaViareggio</string>
+				</vector>
+				<vector id="ImpulseFunctionsList">
+					<string id="0">return (1.0);</string>
+					<string id="1">return (1.0);</string>
+					<string id="2">return (1.0);</string>
+				</vector>
+				<string id="RewardFunction"></string>
+				<int id="Type">1</int>
+				<int id="TimeSeriesType">1</int>
+				<double id="TimeSeriesFirst">0.0</double>
+				<double id="TimeSeriesLast">0.0</double>
+				<double id="TimeSeriesStep">0.0</double>
+				<double id="TimeSeriesInterval">0.0</double>
+				<int id="NumTimePoints">1</int>
+				<vector id="StartTimes">
+					<string id="0">0.0 </string>
+				</vector>
+				<vector id="StopTimes">
+					<string id="0">384</string>
+				</vector>
+				<double id="InitialTransient">0.0</double>
+				<double id="BatchSize">1.0</double>
+				<null id="InitialTransientVar"></null>
+				<null id="BatchSizeVar"></null>
+				<boolean id="EstimateMean">true</boolean>
+				<boolean id="EstimateVariance">false</boolean>
+				<boolean id="EstimateInterval">false</boolean>
+				<boolean id="IncludeLowerBoundOnIntervalEstimate">true</boolean>
+				<boolean id="IncludeUpperBoundOnIntervalEstimate">true</boolean>
+				<double id="LowerBoundOnIntervalEstimate">0.0</double>
+				<double id="UpperBoundOnIntervalEstimate">1.0</double>
+				<boolean id="EstimateDistribution">false</boolean>
+				<boolean id="EstimateOutOfRangeProbabilities">true</boolean>
+				<double id="LowerBoundOnDistributionEstimate">0.0</double>
+				<double id="UpperBoundOnDistributionEstimate">1.0</double>
+				<double id="StepSizeOnDistributionEstimate">0.1</double>
+				<int id="ConfidenceLevel">2</int>
+				<double id="ConfidenceInterval">0.1</double>
+				<boolean id="ConfidenceIntervalIsRelative">true</boolean>
+				<boolean id="RewardIsOverAllAvailableModels">true</boolean>
+				<vector id="ImpulseIsOverAllAvailableModels">
+					<boolean id="0">true</boolean>
+					<boolean id="1">true</boolean>
+					<boolean id="2">true</boolean>
+					<boolean id="3">true</boolean>
+					<boolean id="4">true</boolean>
+				</vector>
+			</class>
+			<string id="TopModelName">Alternation</string>
+			<string id="ModelName">Alternation</string>
+		</class>
+		<class id="PVEditor">
+			<int id="ClassVersion">2</int>
+			<string id="TheInterfaceName">Alternation</string>
+			<boolean id="SkipAcceptPopup">true</boolean>
+			<class id="Mobius.BaseClasses.BaseEditorClass">
+				<int id="ClassVersion">3</int>
+				<boolean id="HasPanel">false</boolean>
+				<vector id="LocalGlobalNamesList">
+				</vector>
+				<vector id="LocalGlobalTypesList">
+				</vector>
+				<boolean id="DisplayToolTips">true</boolean>
+			</class>
+		</class>
+		<boolean id="Valid">true</boolean>
+	</class>
+</class>
